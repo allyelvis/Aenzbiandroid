@@ -11,7 +11,7 @@ The `replit.nix` file should look something like the example below. The `deps` a
 ```nix
 { pkgs }: {
   deps = [
-    pkgs.cowsay
+    pkgs.accountingpos
   ];
 }
 ```

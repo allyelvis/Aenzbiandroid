@@ -1,10 +1,11 @@
 run = "cowsay Configure me!"
 entrypoint = "README.md"
+modules = ["nodejs-20"]
 
 [nix]
 channel = "stable-23_11"
 
 [[ports]]
-localPort = 44999
+localPort = 34999
 externalPort = 80
 exposeLocalhost = true
