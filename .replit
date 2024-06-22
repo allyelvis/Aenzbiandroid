@@ -1,0 +1,10 @@
+run = "cowsay Configure me!"
+entrypoint = "README.md"
+
+[nix]
+channel = "stable-23_11"
+
+[[ports]]
+localPort = 44999
+externalPort = 80
+exposeLocalhost = true
