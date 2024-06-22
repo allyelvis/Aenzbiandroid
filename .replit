@@ -9,3 +9,8 @@ channel = "stable-23_11"
 localPort = 34999
 externalPort = 80
 exposeLocalhost = true
+
+[[ports]]
+localPort = 41281
+externalPort = 3000
+exposeLocalhost = true
